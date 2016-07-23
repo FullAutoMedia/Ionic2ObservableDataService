@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+  <h2>Welcome to Ionic2 Beta 10 Observable Data Service Demo!</h2>
+
+  Dance Moves
+  <ion-item>
+    <ion-label floating>New Move</ion-label>
+    <ion-input type="text" #newMoveName></ion-input>
+    <button (click)="onAddClick(newMoveName.value); newMoveName.value = '';" item-right>Add</button>    
+  </ion-item>
+  <br />
+  <ion-list>
+    <ion-item *ngFor="let m of moves | async">
+      {{ m.name }}
+      <button (click)="onUpdateClick(m)" item-right>Update</button>
+      <ion-icon name="trash" (click)="onDeleteClick(m.id)" item-right></ion-icon>
+    </ion-item>
+  </ion-list>
+</ion-content>
