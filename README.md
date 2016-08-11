@@ -20,4 +20,4 @@ Demonstration of Ionic2 Beta 11 Observable Data Service
 </ul>
 
 upgrade to Ionic2 Beta11
-npm install --save --save-exact ionic-angular @angular/common@2.0.0-rc.4 @angular/compiler@2.0.0-rc.4 @angular/core@2.0.0-rc.4 @angular/http@2.0.0-rc.4 @angular/platform-browser@2.0.0-rc.4 @angular/platform-browser-dynamic@2.0.0-rc.4 @angular/forms rxjs@5.0.0-beta.6 zone.js@0.6.12
+npm install --save --save-exact ionic-angular@2.0.0-beta.11 @angular/common@2.0.0-rc.4 @angular/compiler@2.0.0-rc.4 @angular/core@2.0.0-rc.4 @angular/http@2.0.0-rc.4 @angular/platform-browser@2.0.0-rc.4 @angular/platform-browser-dynamic@2.0.0-rc.4 @angular/forms rxjs@5.0.0-beta.6 zone.js@0.6.12
